@@ -1,0 +1,26 @@
+.Gallery-section {
+    height: 95vh;
+    background-color: black;
+}
+
+.Gallery-header {
+    color: gold;
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+}
+
+
+/* Media Query iPhone 13 Pro */
+@media screen 
+    and (min-width: 390px) 
+    and (max-width: 844px){ 
+
+        .Gallery-header {
+            font-size: 50px;
+        }
+
+        #Gallery-carousel {
+            margin-top: 70px;
+        }
+
+    }

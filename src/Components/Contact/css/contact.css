@@ -1,0 +1,31 @@
+.Contact-section {
+    height: 100vh;
+    background-color: black;
+}
+
+.Contact-header {
+    text-align: center;
+    color: gold;
+    font-family: 'Architects Daughter', cursive;
+}
+
+
+
+/* Media Query iPhone 13 Pro */
+@media screen 
+    and (min-width: 390px) 
+    and (max-width: 844px){
+
+
+        .Contact-header {
+            font-size: 50px;
+        }
+
+        #Contact-map {
+            height: 300px;
+            width: 370px;
+            margin-left: 10px;
+            margin-top: 25px;
+        }
+
+     }

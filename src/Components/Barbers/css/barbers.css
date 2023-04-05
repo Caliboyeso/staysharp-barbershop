@@ -1,0 +1,62 @@
+.Barbers-section {
+    height: 160vh;
+    background-color: black;
+}
+
+/* Media Query iPhone 13 Pro */
+@media screen 
+    and (min-width: 390px) 
+    and (max-width: 844px){
+        
+        .Barbers-header {
+            font-size: 50px;
+            font-family: 'Architects Daughter', cursive;
+            color: gold;
+            text-align: center;
+        }
+
+        .Barbers-main-div {
+            border: 1px solid white;
+            margin: 30px;
+            height: 1050px;
+            background-color: silver;
+            
+        }
+
+        .Barber-Card {
+            border: 1px solid white;
+            width: 275px;
+            margin: 25px;
+            color: gold;
+            font-family: 'Architects Daughter', cursive;
+            height: 315px;
+            background-color: black;
+        }
+
+        .Barber-img {
+            height: 150px;
+            width: 200px;
+            border-radius: 50%;
+            margin-left: 38px;
+            margin-top: 10px;
+        }
+
+        .Barber-name {
+            text-align: center;
+            font-size: 35px;
+        }
+
+        .Barber-btns {
+            text-align: center;
+        }
+
+        .Instagram {
+            margin-top: 5px;
+        }
+
+        .Booksy {
+            margin-top: 20px;
+        }
+
+
+     }

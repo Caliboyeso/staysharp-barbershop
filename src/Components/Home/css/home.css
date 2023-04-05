@@ -1,0 +1,85 @@
+.Home-section {
+    background-color: black;
+    height: 100vh;
+}
+
+.staySharp {
+    height: 300px;
+    border-radius: 50%;
+}
+
+.Home-header {
+    color: gold;
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+.header2 {
+    margin-top: 15px;
+    letter-spacing: 15px;
+}
+
+.Home-message {
+    color: white;
+}
+
+
+/* Media Query iPhone 13 Pro */
+@media screen 
+    and (min-width: 390px) 
+    and (max-width: 844px){ 
+          
+
+        .staySharp {
+            margin-top: -570px;
+            display: flex;
+            margin-left: 40px;
+        }
+
+        .Home-header {
+            padding-top: 335px;
+        }
+
+        #header1 {
+          font-size: 35px;
+          letter-spacing: 5px;
+        }
+
+        #header2 {
+          font-size: 35px;
+        }
+
+        .header2 {
+          letter-spacing: 12px;
+        }
+
+        .Home-message {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+        #Home-btn {
+            margin-left: 135px;
+            display: flex;
+            margin-top: 50px;
+            font-size: 20px;
+            height: 50px;
+            background-color: gold;
+            border: none;
+            width: 120px;
+            padding: 5px;
+        }
+
+        #Home-link {
+            text-decoration: none;
+            border-bottom: none;
+            margin-top: 10px;
+            color: black;
+            margin-left: 5px;
+            margin-top: 7px;
+        }
+
+    }
