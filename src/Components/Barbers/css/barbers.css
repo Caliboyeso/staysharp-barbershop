@@ -1,12 +1,93 @@
 .Barbers-section {
-    height: 160vh;
+    height: 180vh;
     background-color: black;
+}
+
+.Barbers-header {
+    color: gold;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.Barbers-main-div {
+    border: 1px solid white;
+    background-color: silver;
+    width: 750px;
+    margin-left: 260px;
+    text-align: center;
+    height: 160vh;
+    padding: 25px;
+    z-index: 1;
+    position: relative;
+}
+
+#Barber-card {
+    margin-bottom: 25px;
+    border: 1px solid white;
+    color: gold;
+    font-family: 'Architects Daughter', cursive;
+    background-color: black;
+    width: 270px;
+    height: 340px;
+    margin-left: 215px;
+    position: relative;
+}
+
+.Barber-img {
+    height: 200px;
+    margin: 10px;
+    width: 238px;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.Barber-name {
+    margin-top: 5px;
+    padding-bottom: 10px;
+    border-top: 1px solid white;
+}
+
+#Abdiel {
+    color: yellow;
+}
+
+#Izzy {
+    color: orange;
+}
+
+#Mariah {
+    color: pink;
+}
+
+.Barber-btns {
+    padding: 5px;
+    height: 55px;
+}
+
+.Instagram {
+    float: left;
+    background-color: white;
+}
+
+.Booksy {
+    float: right;
+    background-color: white;
+}
+
+#Insta-btn, #Book-btn {
+    text-decoration: none;
+    font-size: 18px;
 }
 
 /* Media Query iPhone 13 Pro */
 @media screen 
     and (min-width: 390px) 
     and (max-width: 844px){
+
+        .Barbers-section {
+            
+        }
         
         .Barbers-header {
             font-size: 50px;
@@ -18,8 +99,10 @@
         .Barbers-main-div {
             border: 1px solid white;
             margin: 30px;
-            height: 1050px;
-            background-color: silver;
+            height: 1150px;
+            background-color: rgb(37, 17, 139);
+            width: 350px;
+            margin-left: 20px;
             
         }
 
@@ -31,6 +114,11 @@
             font-family: 'Architects Daughter', cursive;
             height: 315px;
             background-color: black;
+        }
+
+        #Barber-card {
+            margin-left: -2px;
+            width: 300px;
         }
 
         .Barber-img {
@@ -51,11 +139,13 @@
         }
 
         .Instagram {
-            margin-top: 5px;
+            margin-top: 20px;
+            margin-left: 10px;
         }
 
         .Booksy {
             margin-top: 20px;
+            margin-right: 10px;
         }
 
 

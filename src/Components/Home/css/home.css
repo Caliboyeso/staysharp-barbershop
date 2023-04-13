@@ -6,6 +6,10 @@
 .staySharp {
     height: 300px;
     border-radius: 50%;
+    margin-left: 490px;
+    margin-top: 40px;
+    z-index: 1;
+    position: relative;
 }
 
 .Home-header {
@@ -13,16 +17,41 @@
     font-family: 'Architects Daughter', cursive;
     text-align: center;
     padding-top: 25px;
-    font-size: 30px;
+}
+
+.header1 {
+    font-size: 50px;
 }
 
 .header2 {
     margin-top: 15px;
     letter-spacing: 15px;
+    font-size: 50px;
 }
 
 .Home-message {
     color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#Home-btn {
+    margin-top: 30px;
+    background-color: gold;
+    font-size: 20px;
+    display: flex;
+    margin-left: 575px;
+    width: 120px;
+    height: 42px;
+    padding: 5px;
+    z-index: 1;
+    position: relative;
+}
+
+#Home-link {
+    text-decoration: none;
+    color: black;
 }
 
 

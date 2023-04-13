@@ -3,8 +3,9 @@ import "./css/gallery.css";
 import "./css/gallery.css";
 import Carousel from "react-bootstrap/Carousel";
 import haircut1 from '../img/haircut1.png';
-import haircut2 from '../img/haircut2.png';
-import haircut3 from '../img/haircut3.png';
+import haircut4 from '../img/haircut4.png';
+import izzycut1 from '../img/izzycut1.png';
+import mariahcut1 from '../img/mariahcut1.png';
 
 const Gallery = () => {
   return (
@@ -16,10 +17,11 @@ const Gallery = () => {
       <h1 className="Gallery-header">Gallery</h1>
       {/* Slide Carousel */}
       <Carousel id="Gallery-carousel">
+        {/* Haircut #1 */}
         <Carousel.Item interval={1500}>
           <img
             className="d-block w-100"
-            src={haircut3}
+            src={haircut1}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -27,10 +29,23 @@ const Gallery = () => {
             <p>By Abdiel</p>
           </Carousel.Caption>
         </Carousel.Item>
+        {/* Haircut #2 */}
         <Carousel.Item interval={1500}>
           <img
             className="d-block w-100"
-            src={haircut2}
+            src={izzycut1}
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <h3>High Fade</h3>
+            <p>By Abdiel</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        {/* Haircut #3 */}
+        <Carousel.Item interval={1500}>
+          <img
+            className="d-block w-100"
+            src={mariahcut1}
             alt="Second slide"
           />
           <Carousel.Caption>
@@ -38,10 +53,11 @@ const Gallery = () => {
             <p>By Izzy</p>
           </Carousel.Caption>
         </Carousel.Item>
+        {/* Haircut #4 */}
         <Carousel.Item interval={1500}>
           <img
             className="d-block w-100"
-            src={haircut1}
+            src={haircut4}
             alt="Third slide"
           />
           <Carousel.Caption>

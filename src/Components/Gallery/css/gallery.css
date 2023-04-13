@@ -1,5 +1,5 @@
 .Gallery-section {
-    height: 95vh;
+    height: 110vh;
     background-color: black;
 }
 
@@ -7,6 +7,17 @@
     color: gold;
     font-family: 'Architects Daughter', cursive;
     text-align: center;
+    font-size: 50px;
+}
+
+#Gallery-carousel {
+    width: 800px;
+    margin-left: 238px;
+    margin-top: 50px;
+}
+
+img {
+    height: 500px;
 }
 
 
@@ -21,6 +32,8 @@
 
         #Gallery-carousel {
             margin-top: 70px;
+            width: 380px;
+            margin-left: 5px;
         }
 
     }
