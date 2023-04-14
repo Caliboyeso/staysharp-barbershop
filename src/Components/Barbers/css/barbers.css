@@ -150,3 +150,20 @@
 
 
      }
+
+
+
+    /* Media Query - Desktop */
+    @media screen and (min-width: 1920px) {
+        .Barbers-section {
+            height: 140vh;
+        }
+        .Barbers-header {
+            padding-bottom: 50px;
+        }
+
+        .Barbers-main-div {
+            margin-left: 590px;
+            height: 1130px;
+        }
+    }

@@ -91,3 +91,22 @@
         }
 
      }
+
+
+
+/* Media Query - Desktop */
+@media screen and (min-width: 1920px) {
+
+    .Contact-section {
+        height: 97vh;
+    }
+
+    .Contact-info {
+        margin-top: 50px;
+    }
+
+    .Contact-main-div {
+        margin-left: 295px;
+        margin-top: 50px;
+    }
+}

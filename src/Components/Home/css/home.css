@@ -112,3 +112,24 @@
         }
 
     }
+
+
+
+/* Media Query - Desktop */
+@media screen and (min-width: 1920px) {
+
+    .Home-message {
+        margin-top: 25px;
+    }
+
+    #Home-btn {
+        margin-left: 900px;
+        margin-top: 50px;
+    }
+
+    .staySharp {
+        margin-left: 720px;
+        margin-top: 50px;
+        height: 500px;
+    }
+}
